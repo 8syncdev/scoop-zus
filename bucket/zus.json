@@ -1,0 +1,43 @@
+{
+    "version": "1.1.0",
+    "description": "ZUS - a fast, lightweight AI IDE",
+    "homepage": "https://github.com/8syncdev/zus-releases",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/8syncdev/zus-releases/releases/download/v1.1.0/ZUS_1.1.0_x64-setup.exe",
+            "hash": "132c04f8f75a3543293b74b6c70b60fd880ddcb12adfa3eb07896f916d8735c3"
+        }
+    },
+    "installer": {
+        "args": [
+            "/S",
+            "/D=$dir"
+        ]
+    },
+    "uninstaller": {
+        "file": "uninstall.exe",
+        "args": [
+            "/S"
+        ]
+    },
+    "shortcuts": [
+        [
+            "ZUS.exe",
+            "ZUS"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/8syncdev/zus-releases"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/8syncdev/zus-releases/releases/download/v$version/ZUS_${version}_x64-setup.exe"
+            }
+        },
+        "hash": {
+            "url": "https://github.com/8syncdev/zus-releases/releases/download/v$version/SHA256SUMS.txt"
+        }
+    }
+}

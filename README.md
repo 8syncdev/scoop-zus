@@ -1,10 +1,12 @@
 <div align="center">
 
+<img src="https://raw.githubusercontent.com/8syncdev/zus-releases/main/assets/brand/n1_interlock.svg" alt="8 Sync" width="56">
+
 # scoop-zus
 
 **[Scoop](https://scoop.sh) bucket for [ZUS](https://github.com/8syncdev/zus-releases) — a fast, lightweight AI IDE (~22 MB installer).**
 
-[![Latest release](https://img.shields.io/github/v/release/8syncdev/zus-releases?label=ZUS&color=a6e22e)](https://github.com/8syncdev/zus-releases/releases/latest)
+[![Latest release](https://img.shields.io/github/v/release/8syncdev/zus-releases?label=ZUS&color=4F7CFF)](https://github.com/8syncdev/zus-releases/releases/latest)
 
 *English first · Tiếng Việt bên dưới*
 
@@ -44,6 +46,7 @@ Cập nhật: `scoop update zus` — hoặc để app tự update (có xác th�
 
 <div align="center">
 
-**8 Sync Dev** — atus@8syncdev.com
+**8 Sync Dev** — [8syncdev.com](https://8syncdev.com) · atus@8syncdev.com
+*Sync is a loop — two systems, one link.*
 
 </div>

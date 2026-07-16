@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/8syncdev/zus-releases/main/assets/brand/zus_mark_gradient.svg" alt="ZUS" width="64">
+<img src="https://raw.githubusercontent.com/8syncdev/zus-releases/main/assets/brand/zus_mark.svg" alt="ZUS" width="64">
 
 # scoop-zus
 

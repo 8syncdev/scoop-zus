@@ -1,6 +1,20 @@
+<div align="center">
+
 # scoop-zus
 
-[Scoop](https://scoop.sh) bucket for [ZUS](https://github.com/8syncdev/zus-releases) — a fast, lightweight AI IDE.
+**[Scoop](https://scoop.sh) bucket for [ZUS](https://github.com/8syncdev/zus-releases) — a fast, lightweight AI IDE (~22 MB installer).**
+
+[![Latest release](https://img.shields.io/github/v/release/8syncdev/zus-releases?label=ZUS&color=a6e22e)](https://github.com/8syncdev/zus-releases/releases/latest)
+
+*English first · Tiếng Việt bên dưới*
+
+<img src="https://raw.githubusercontent.com/8syncdev/zus-releases/main/assets/editor-agent-chat.webp" alt="ZUS — editor with AI chat panel" width="820">
+
+</div>
+
+---
+
+## 🇬🇧 Install
 
 ```powershell
 scoop bucket add zus https://github.com/8syncdev/scoop-zus
@@ -13,4 +27,23 @@ Update:
 scoop update zus
 ```
 
-Manifests track [zus-releases](https://github.com/8syncdev/zus-releases/releases); hashes are pinned from each release's `SHA256SUMS.txt`.
+- Manifests track [zus-releases](https://github.com/8syncdev/zus-releases/releases); hashes are pinned from each release's `SHA256SUMS.txt`.
+- The app also self-updates in place (signature-verified) — `scoop update zus` simply fast-forwards the manifest.
+- Prefer winget? `winget install 8syncdev.ZUS`.
+
+## 🇻🇳 Cài đặt
+
+```powershell
+scoop bucket add zus https://github.com/8syncdev/scoop-zus
+scoop install zus
+```
+
+Cập nhật: `scoop update zus` — hoặc để app tự update (có xác thực chữ ký số). Manifest bám theo [zus-releases](https://github.com/8syncdev/zus-releases/releases), hash lấy từ `SHA256SUMS.txt` của từng bản.
+
+---
+
+<div align="center">
+
+**8 Sync Dev** — atus@8syncdev.com
+
+</div>

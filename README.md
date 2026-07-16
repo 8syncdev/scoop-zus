@@ -10,7 +10,7 @@
 
 *English first · Tiếng Việt bên dưới*
 
-<img src="https://raw.githubusercontent.com/8syncdev/zus-releases/main/assets/editor-agent-chat.webp" alt="ZUS — editor with AI chat panel" width="820">
+<img src="https://raw.githubusercontent.com/8syncdev/zus-releases/main/assets/editor-agent-chat.jpg" alt="ZUS — editor with AI chat panel" width="820">
 
 </div>
 
